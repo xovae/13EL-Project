@@ -27,4 +27,11 @@ class motor:
         this.TransPosF.low()
         
     def init(this, TransPosF, TransPosB, TransNegF, TransNegB)
-        this.TransPosF = machine
+        this.TransPosF = machine.Pin(TransPosF, machine.Pin.OUT)
+        this.TransPosB = machine.Pin(TransPosB, machine.Pin.OUT)
+        this.TransNegF = machine.Pin(TransNegF, machine.Pin.OUT)
+        this.TransNegB = machine.Pin(TransNegB, machine.Pin.OUT)
+    
+leftMotor = motor(15, 14, 13, 12)
+rightMotor = motor(16, 17, 18, 19)
+
