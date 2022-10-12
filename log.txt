@@ -1,0 +1,7 @@
+12/10/2022
+- created prototype board
+    - multiple iterations, images on phone
+- constructed transistor tester circuit
+    - images on phone
+- further developed code (check github)
+- researched transistor design (bc347)
