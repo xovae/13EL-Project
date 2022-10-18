@@ -1,6 +1,6 @@
 import machine
 import utime
-from machine import Pin, Timer
+import machine 
 
 led = machine.Pin('LED', machine.Pin.OUT)
 led.high()
