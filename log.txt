@@ -5,3 +5,7 @@
     - images on phone
 - further developed code (check github)
 - researched transistor design (bc347)
+21/11/2022
+- fixed core circuit logic problems
+- developed circuit diagram
+- began work on HTML for website
