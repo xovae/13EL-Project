@@ -8,4 +8,7 @@
 21/11/2022
 - fixed core circuit logic problems
 - developed circuit diagram
-- began work on HTML for website
+- updated chassis design
+22/11/2022
+- developed HTML for website
+- created component view diagram
