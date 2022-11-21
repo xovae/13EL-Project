@@ -1,5 +1,6 @@
 import machine
 import utime
+from time import sleep
 
 led = machine.Pin('LED', machine.Pin.OUT)
 led.high()
@@ -17,7 +18,7 @@ def forward(this):
         this.posTrans1.high()
         this.negTrans1.high()
 
-def backwards(this):
+def backward(this):
         this.posTrans1.low()
         this.negTrans1.low()
         this.negTrans2.high()
@@ -29,5 +30,9 @@ rightMotor = motor(16, 17, 19, 18)
 while True:
     forward(leftMotor)
     forward(rightMotor)
+    sleep(2)
+    backward(leftMotor)
+    backward(rightMotor)
+    sleep(2)
     # leftMotor.forward()
     # rightMotor.forward()
