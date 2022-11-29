@@ -12,3 +12,5 @@
 22/11/2022
 - developed HTML for website
 - created component view diagram
+29/11/2022
+- 

@@ -5,6 +5,11 @@ from time import sleep
 led = machine.Pin('LED', machine.Pin.OUT)
 led.high()
 
+buzzer = machine.Pin(21, machine.Pin.OUT)
+buzzer.high()
+sleep(1)
+buzzer.low()
+
 class motor:
     def __init__(this, posTrans1, posTrans2, negTrans1, negTrans2):
         this.posTrans1 = machine.Pin(posTrans1, machine.Pin.OUT)
